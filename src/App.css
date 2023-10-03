@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+
+
+.main-navbar{
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.763);
+    height: 12vh;
+    color: #fff !important;
+    padding: 13  !important;
+    border-bottom: 1px solid black;
+}
+
+.coniter{
+    width: 50vw;
+    align-items: center ;
+}
+
+.btn-primary{
+    background-color: #fff !important;
+    color: #000 !important ;
+    border: none !important;
+    padding: 0.1rem 1rem !important;
+    border-radius: 16px !important;
+}
+
+.list-group {
+    --bs-list-group-color: none !important;
+    --bs-list-group-bg: none !important;
+    --bs-list-group-border-color: none !important;
+    --bs-list-group-border-width: none !important;
+     --bs-list-group-border-radius: none !important;
+}
+
+.d-inline-block{
+    margin-top: 1rem !important;
+    margin-left: 5rem !important;
+}
+
+
+.background-image{
+    background-image: url(../src/assets/Background.png);
+    background-size: cover;
+    height: 100vh;
+}
+.list-group-item {
+    border-top-width: 0;
+    cursor: pointer !important;
+    margin-right: 1rem !important;
+    width: auto;
+}
+
+.list-group-item:hover{
+    color: #FFD54F;
+}
+
+.Home-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    color: #fff ;
+    /* overflow: hidden; */
+}
+
+.Home-page   h1{
+    color: #fff ;
+    font-display: optional;
+    text-wrap: revert;
+}
+.do{
+    padding-left: 11rem;
+    padding-right: 10px;
+    background-color:#FFD54F;
+     color:#000 ;
+}
+
+.head{
+    font-family: 'Kanit';
+    font-weight: 900;
+    font-variant: small-caps;
+}
+/* .heading-tag{
+    margin-left: -37rem;
+} */
+
+
+.button-connect{
+     border: #FFD54F 1px solid !important;
+     background-color: transparent !important;
+     width: 14rem !important;
+     color: #fff !important;
+     border-radius: 0px !important;
+     padding: 0.2rem 2rem !important;
+     margin: 2rem 0  0 -3.6rem ;
+     /* margin-left: -41.9rem !important; */
+     
+}
+
+.headings{
+    display:   flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ngo-home{
+    /* display: grid;
+    * flex-direction: column; *
+    justify-content: center; */
+    width: 100%;
+    height: 173vh;
+    text-align: center;
+    /* padding: 10px !important; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap');
+
+.ngo-home h2{
+    font-family: 'Kanit';
+}
+
+.h1-1{
+    font-size: 3.9rem;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #FFFDE7;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.00px; 
+}
+.photo-heading-text{
+    font-size: 7rem;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #E0E0E0;
+    -webkit-text-stroke-width: 1.00px;
+
+}
+
+p{
+    font-family: 'Kanit';
+    text-align: center;     
+    padding: 0 10rem;
+}
+
+.ngo-svs{
+    font-size: 5.5rem;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #E0E0E0;
+    -webkit-text-stroke-width: 1.00px; 
+    position: relative;
+}
+
+.bottom h1{
+    font-size: 1.8rem;
+    position: absolute;
+    font-weight: bold;
+    top: 63rem;
+    left: 40%;
+}
+
+.doo{
+    
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 215%;
+}
+.ngo-img h1{
+   color: #fff;
+   font-size: 1.4rem;
+   text-align: center;
+   margin-left: 3rem !important;
+}
+
+.ngo-img p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 22rem;
+    margin-top: 2rem;
+}
+
+.more-button{
+    background-color: #FFD54F!important;
+    border-radius: 0 !important ;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    border: 1px dashed white !important;
+    /* height: 5rem !important; */
+    padding: 1.3rem !important;
+
+    border-radius: 50%;
+    /* width: 5rem !important; */
+}
+
+.photos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.photo-container{
+    background-color: #fff;
+    /* padding: 20px; */
+    width: 80%;
+    height: 120vh;
+}
+
+.photo-heading-text-two{
+    position: absolute;
+    top: 298%;
+    left: 39.9%;
+    font-size: 2.3rem;
+}
+
+.photo{
+   height: 150vh;
+   background-color: #EEEEEE;
+   display: grid;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 0 1rem 1rem 1rem;
+    margin-left: 3.5rem
+}
+
+.images img{
+    margin: 1rem 1rem 0 0;
+}
+
+.bottom-data{
+    font-size: 4rem;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.texts h1{
+    font-size: 6.8rem;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #E0E0E0;
+    -webkit-text-stroke-width: 1.00px; 
+    text-align: center;
+}
+
+.texts h2{
+    position: absolute;
+    top: 397%;
+    font-size: 2.07rem;
+}
+
+.icons{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-top: 3rem;
+}
+
+.icons img{
+    border: 1px dashed black;
+    padding: 0.9rem;
+    border-radius: 50%;
+}
+
+.footer h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer .top{
+    background-image: url(./assets/co.png);
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+}
+
+.btnt{
+    padding: 0.4rem 5rem !important;
+    height: 6vh !important;
+    border-radius: 0 !important;
+    margin-left: 2rem !important;
+    background-color: #FFD54F !important;
+}
+
+.list-group-item-two{
+    padding: 0 !important;
+    --bs-list-group-item-padding-x: 0 !important;
+}
+
+.card{
+    word-wrap: none !important;
+    word-wrap: normal !important;
+        --bs-card-spacer-y: 0 !important; 
+        --bs-card-spacer-x: 0 !important;
+     --bs-card-title-spacer-y: 0 !important;
+     height: 20vh !important;
+     display: grid !important;
+     justify-content: center !important;
+     text-align: center !important;
+     background-color: 	rgb(44, 44, 46)!important ;
+     color: #fff !important;
+     align-items: center !important;
+     margin: 0 1rem 0 1rem !important;
+}
+
+.card p {
+    margin-top: 0.9rem;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.card-two{
+    background-color: #000 !important;
+}
+
+span{
+    margin-top: 0 !important;
+}
